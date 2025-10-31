@@ -25,7 +25,7 @@ const Footer = () => {
               onClick={scrollToTop}
             >
               <span className="text-[#00ffd1] group-hover:text-[#00ff88] transition-colors duration-300">
-                {'<AK/>'}
+                {'<Amit Kumar | Embedded Engineer/>'}
               </span>
             </div>
             <p className="text-gray-400 font-poppins text-sm">

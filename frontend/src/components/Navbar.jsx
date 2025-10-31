@@ -62,7 +62,7 @@ const Navbar = () => {
             onClick={() => scrollToSection('home')}
           >
             <span className="text-[#00ffd1] group-hover:text-[#00ff88] transition-colors duration-300">
-              {'<AK/>'}
+              {'<Amit Kumar | Embedded Engineer/>'}
             </span>
           </div>
 

@@ -36,10 +36,10 @@ const Hero = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:amit@example.com', label: 'Email' },
-    { icon: Send, href: 'https://t.me', label: 'Telegram' },
+    { icon: Github, href: 'https://github.com/amit-kumar84', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/amit-kumar-h/', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:kumaramit8126@gmail.com', label: 'Email' },
+    { icon: Send, href: 'https://t.me/Mr_Amit_Rajput_1', label: 'Telegram' },
   ];
 
   return (

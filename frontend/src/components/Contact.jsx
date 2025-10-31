@@ -38,8 +38,8 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: 'amit@example.com', href: 'mailto:amit@example.com' },
-    { icon: Phone, label: 'Phone', value: '+91 98765 43210', href: 'tel:+919876543210' },
+    { icon: Mail, label: 'Email', value: 'kumaramit8126@gmail.com', href: 'mailto:kumaramit8126@gmail.com' },
+    { icon: Phone, label: 'Phone', value: '+91 8126704800', href: 'tel:+91 8126704800' },
     { icon: MapPin, label: 'Location', value: 'India', href: null },
   ];
 

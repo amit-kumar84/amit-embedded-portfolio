@@ -64,7 +64,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://amit-kumar84.github.io/amit-embedded-portfolio",
+  "homepage": "https://amit-kumar84.github.io/",
   "browserslist": {
     "production": [
       ">0.2%",

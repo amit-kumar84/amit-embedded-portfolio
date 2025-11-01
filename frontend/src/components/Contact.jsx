@@ -22,20 +22,41 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+ const handleSubmit = async (e) => {
+  e.preventDefault();
+  setIsSubmitting(true);
 
-    // Simulate form submission
-    setTimeout(() => {
+  try {
+    const response = await fetch("https://formspree.io/f/xkgppvdy", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+
+    if (response.ok) {
       toast({
-        title: 'Message Sent!',
-        description: 'Thank you for reaching out. I\'ll get back to you soon!',
+        title: "Message Sent!",
+        description: "Thank you for reaching out. I'll get back to you soon!",
       });
-      setFormData({ name: '', email: '', message: '' });
-      setIsSubmitting(false);
-    }, 1000);
-  };
+      setFormData({ name: "", email: "", message: "" });
+    } else {
+      toast({
+        title: "Error",
+        description: "Something went wrong. Please try again later.",
+      });
+    }
+  } catch (error) {
+    toast({
+      title: "Error",
+      description: "Network error. Please check your internet connection.",
+    });
+  }
+
+  setIsSubmitting(false);
+};
+
 
   const contactInfo = [
     { icon: Mail, label: 'Email', value: 'kumaramit812670@gmail.com', href: 'mailto:kumaramit812670@gmail.com' },

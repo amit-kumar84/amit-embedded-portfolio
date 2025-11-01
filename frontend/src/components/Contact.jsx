@@ -38,7 +38,7 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: 'kumaramit8126@gmail.com', href: 'mailto:kumaramit8126@gmail.com' },
+    { icon: Mail, label: 'Email', value: 'kumaramit812670@gmail.com', href: 'mailto:kumaramit812670@gmail.com' },
     { icon: Phone, label: 'Phone', value: '+91 8126704800', href: 'tel:+91 8126704800' },
     { icon: MapPin, label: 'Location', value: 'India', href: null },
   ];
